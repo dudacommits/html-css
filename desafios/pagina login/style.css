@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+body{min-height: 100vh;background-image: linear-gradient(50deg,#F7B800 ,#e6862c 35%,#e0587c);}
+
+main{background-color: rgba(255, 255, 255, 0.842); width: 800px;padding: 70px 30px 70px 30px; margin: auto;margin-top:80px;border-radius: 15px;}
+
+h1{text-align: center;font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; }
+
+h2{background-color: rgba(255, 255, 255, 0.418); border-radius: 8px; padding: 16px; font-size: 20px;border: 2px solid #6e0222b0; color: rgba(7, 7, 7, 0.336);font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+  h2:hover{background-color: rgba(233, 233, 233, 0.205);}
+
+h3{color: white;text-align: center;background-image: linear-gradient(to right,#F7B800 ,#e6862c 35%,#e0587c);padding: 16px; border-radius:8px;font-size: 20px;font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+p{text-align: center;color: #e60a45;font-size: 17px; text-decoration: underline;font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+  h4{font-size: 20px;font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+  a{color: #e0587c; text-decoration: none;}
+  a:hover{color: #e60a45;}
+  p{text-decoration: none;}
+  p:hover{text-decoration: underline;}
+
+  
