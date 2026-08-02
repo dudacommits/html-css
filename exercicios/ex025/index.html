@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <form action="cadastrp.php" method="post">
+
+     <p><label for="inome">nome:</label>
+     <input type="text" id="inome" name="nome" required minlength="8" placeholder="Digite seu nome" autocomplete="username"></p>
+
+     <p><label for="isenha">senha:</label>
+    <input type="password" id="isenha" name="senha" required minlength="8" placeholder="Digite sua senha" autocomplete="current-password"></p>
+
+    <input type="submit" value="cadastrar">
+    </form>
+    
+</body>
+</html>
