@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>somar numeros</legend>
+            <p>
+                <label for="in1">primeiro numero</label>
+                <input type="number" name="n1" id="in1" min="0" max="10" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="in2">segundo numero</label>
+                <input type="number" name="n2" id="in2" min="0" max="10" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="isoma">a soma e</label>
+                <output id="isoma">0</output>
+            </p>
+                </form>
+        </fieldset>
+</body>
+</html>
