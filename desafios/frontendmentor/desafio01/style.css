@@ -3,6 +3,18 @@ html,body{
     background-color: rgb(215, 222, 223);
  }
 *{margin: 0px;}
+
+.pai{position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+white-space: nowrap;
+}
+
+.filha{display: inline-block;
+width: 200px;
+height: 100px;}
+
  #l1{
     background-image: linear-gradient(to bottom, #7c62db, #4f1aa5);
     width: 380px;
@@ -12,7 +24,6 @@ html,body{
     color: white;
     padding-bottom: 20px;
     margin: auto;
-    margin-top: 20vh;
  }
 
  #l1>h3{padding-top: 40px;
@@ -46,25 +57,43 @@ margin: auto
     text-align: center;
     padding-bottom: 20px;
     margin: auto;
-    margin-top: 20vh;
 
  }
 
 #l2>h2{padding-top: 40px;
 color: rgba(11, 11, 31, 0.863);
 font-size: 1.4em;
-padding-bottom: 30px;
+padding-bottom: 15px;
 padding-left: 60px;
 text-align: left;}
 
 .blocos{font-weight: bold;
-font-size: 0.8em;
+font-size: 1.1em;
 background-color: rgba(218, 133, 133, 0.116);
 width: 300px;
-padding: 15px;
-margin-top: 20px;
+padding: 17px;
+margin: 20px auto;
+
 border-radius: 10px;}
 
 span.num{color: rgba(82, 82, 82, 0.493);}
 
 span.val{margin-left: 150px;}
+
+#rea .pal {color: rgba(252, 50, 50, 0.925);}
+
+#mem .pal {color: rgba(252, 181, 50, 0.925);}
+#mem{ background-color: rgba(252, 230, 131, 0.329);}
+#ver .pal {color: rgba(50, 252, 191, 0.925);}
+#ver{ background-color: rgba(146, 245, 223, 0.24);}
+#vis .pal {color: rgba(50, 114, 252, 0.925);}
+#vis{ background-color: rgba(121, 154, 243, 0.151);}
+
+#l2>h3{background-color: rgb(37, 42, 71);
+width: 230px;
+padding: 15px;
+border-radius: 40px;
+color: white;
+margin: auto;
+font-size: 1.1em;
+margin-top: 50px;}
