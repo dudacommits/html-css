@@ -6,8 +6,9 @@
     <title>media query</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>meu site</h1>
         <span id="burger" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
@@ -57,11 +58,15 @@ O Brasil é o principal parceiro comercial da Argentina, sendo destino de 12,6% 
 
 Em 2025, a Argentina figurou como o terceiro principal destino das exportações brasileiras, que representaram US$ 18,1 bilhões em bens vendidos, o que soma 5,2% do total exportado pelo Brasil. Os dados são da Comex Stat, o banco de dados do Ministério do Desenvolvimento, Indústria e Comércio (MDIC).</p>
         
-    </main>
-
+</main>
     <script>
+        function mudoutamanho(){
+            if (window.innerWidth >= 768){
+                options.style.display = 'block'}
+        }
+        
         function clickmenu(){
-            
+
             if (options.style.display == 'block'){
                 options.style.display = 'none' }
             else {options.style.display = 'block' }
