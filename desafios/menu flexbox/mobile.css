@@ -1,0 +1,34 @@
+@media screen and (max-width:540px){
+    
+}
+
+header, header>nav{
+    flex-flow: column wrap;
+    cursor: pointer;
+   }
+
+   header>h1 {
+    flex-basis: 50px;
+   }
+
+   header>p#menu{
+    display: block;
+    width: 68vw;
+   }
+
+   #itens{
+    display: none;
+    width: 70vw;
+   }
+
+@media screen and (min-width:541px){
+header>p#menu{
+    display: none;
+
+   }
+
+   #itens{
+    display: flex;
+
+   }
+}

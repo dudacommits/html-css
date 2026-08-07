@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu flexbox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:540px)">
+</head>
+<body onresize="mudoutamanho()">
+    <header>
+        <h1>meu site</h1>
+        <p id="menu" onclick="clickmenu()" class="material-symbols-outlined">menu</p>
+        <nav id="itens">
+                <a href="#">opcao 1</a>
+                <a href="#">opcao 2</a>
+                <a href="#">opcao 3</a>
+                <a href="#">opcao 4</a>
+                <a href="#">opcao 5</a>
+                <a href="#">opcao 6</a>
+
+        </nav>
+    </header>
+    <main>
+        <h1>testando menu com flexbox</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis commodi ad explicabo possimus enim voluptates repellat quasi sunt, provident impedit iure natus fugit at exercitationem mollitia.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste odio tenetur nulla error debitis in cupiditate, nesciunt eius ratione libero iusto ipsam explicabo, nam tempore voluptas numquam. Sit, corrupti sunt!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente delectus, voluptate voluptatem, quidem omnis libero id saepe atque, eum accusantium culpa modi incidunt illum. Rem omnis perspiciatis saepe et.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, inventore. Optio veniam voluptas a soluta iusto. Quaerat totam rerum ipsum, ea, accusamus ratione perspiciatis aut deserunt architecto eum sunt autem.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente delectus, voluptate voluptatem, quidem omnis libero id saepe atque, eum accusantium culpa modi incidunt illum. Rem omnis perspiciatis saepe et.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente delectus, voluptate voluptatem, quidem omnis libero id saepe atque, eum accusantium culpa modi incidunt illum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente delectus, voluptate voluptatem, quidem omnis libero id saepe atque, eum accusantium culpa modi incidunt illum. Rem omnis perspiciatis saepe et.</p>
+    </main>
+    <script>
+        function clickmenu() {
+            if (itens.style.display == 'flex'){
+        itens.style.display = 'none'}
+        else{itens.style.display = 'flex'}
+    }
+    function mudoutamanho(){
+            if (window.innerWidth >= 541){
+        itens.style.display = 'flex'}
+        else {
+        itens.style.display = 'none'}
+    }
+    </script>
+</body>
+</html>
