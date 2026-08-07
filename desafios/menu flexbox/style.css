@@ -20,12 +20,10 @@ body{
 
    header>h1 {
     flex: 0 0 200px;
-    border: 2px solid black;
     color: white;
    }
 
    header>nav{
-    border: 2px solid black;
     display: flex;
     flex-flow: wrap;
    }
@@ -56,6 +54,7 @@ body{
     background-color: white;
     border-radius: 8px;
     margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
    }
 
    main h1{
