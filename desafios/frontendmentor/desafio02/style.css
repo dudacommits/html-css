@@ -49,7 +49,7 @@
   }
 
   span#dest{
-    color: rgb(233, 155, 11);
+    color: rgb(247, 162, 5);
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -68,30 +68,30 @@
   nav>a{
     text-decoration: none;
     font-family: "Hammersmith One", sans-serif;
+    font-size: 0.8em;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1px;
     padding: 5px 20px;
-    color: rgb(80, 48, 39);
+    color: rgb(100, 59, 47);
     font-weight: bold;
     transition-duration: 0.5s;
   }
   
   nav>a:hover{
-    background-color: rgb(80, 48, 39);
+    background-color: rgb(100, 59, 47);
     color: white;
   
     border-radius: 10px;
   }
 
   main>h2{
-    margin-left: 4px;
     padding: 35px 15px ;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-size: 1.7em;
     font-style: normal;
-    color: rgb(80, 44, 20);
+    color: rgb(100, 59, 47);
   }
 
   section{
@@ -110,15 +110,15 @@
     align-items: center;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 200px;
-    height: 280px;
+    width: 150px;
+    height: 230px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.356);
     border-radius: 18px;
     background-color: rgb(253, 241, 227);
     background-size: cover;
     background-position: center center;
     overflow: hidden;
-    background-color: rgb(224, 162, 47);
+    background-color: rgb(235, 156, 9);
   }
 
    section>div:hover{
@@ -127,7 +127,7 @@
   }
 
   section.food>div#f1>div.imagem{
-    background-color: rgb(165, 42, 42);
+    background-color: rgb(189, 39, 39);
     background-image: url(imagens/images\ \(1\).jpg);
     background-position: center center;
     background-size: cover;
@@ -142,7 +142,7 @@
     transform: translate( 0 , -50%);
     text-decoration: none;
     color: white;
-    background-color: rgb(148, 20, 20);
+    background-color: rgb(185, 20, 20);
     padding: 6px;
     padding-bottom: 8px;
     margin-bottom: 4px;
