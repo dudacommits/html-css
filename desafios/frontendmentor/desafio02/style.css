@@ -59,10 +59,10 @@
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(247, 180, 55);
-    padding: 6px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.178);
+    margin: auto;
   }
 
   nav>a{
@@ -71,8 +71,17 @@
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1px;
-    color: rgb(73, 33, 23);
+    padding: 5px 20px;
+    color: rgb(80, 48, 39);
     font-weight: bold;
+    transition-duration: 0.5s;
+  }
+  
+  nav>a:hover{
+    background-color: rgb(80, 48, 39);
+    color: white;
+  
+    border-radius: 10px;
   }
 
   main>h2{
@@ -109,12 +118,12 @@
     background-size: cover;
     background-position: center center;
     overflow: hidden;
-    background-color: rgba(226, 149, 5, 0.87);
+    background-color: rgb(224, 162, 47);
   }
 
    section>div:hover{
     transform: translate( 0 , -5%);
-    transition: 0.5s;
+    transition-duration: 0.5s;
   }
 
   section.food>div#f1>div.imagem{
@@ -133,7 +142,7 @@
     transform: translate( 0 , -50%);
     text-decoration: none;
     color: white;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(148, 20, 20);
     padding: 6px;
     padding-bottom: 8px;
     margin-bottom: 4px;
@@ -143,7 +152,7 @@
   }
 
   section.food>div>p{
-    color: rgba(255, 255, 255, 0.637);
+    color: rgba(255, 255, 255, 0.74);
     padding: 2px;
     margin-left: 8px;
     margin-top: -20px;
