@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grids</title>
+    <style>
+        *{margin: 0px;}
+        div#container{
+            margin: 50px;
+            display: grid;
+            background-color: rgb(23, 23, 109);
+            
+            width: 80vw;
+            grid-template-columns: auto auto auto;
+            grid-auto-rows: 100px;
+            gap: 10px;
+            
+         }
+
+         p.item{
+            background-color: rgb(250, 225, 3);
+
+          }
+    </style>
+</head>
+<body>
+  <div id="container">
+     <p class="item">A</p>
+     <p class="item">B</p>
+     <p class="item">C</p>
+     <p class="item">D</p>
+     <p class="item">E</p>
+     <p class="item">F</p>
+     <p class="item">G</p>
+     <p class="item">H</p>
+     <p class="item">I</p>
+     
+  </div>  
+</body>
+</html>
