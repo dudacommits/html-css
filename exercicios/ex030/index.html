@@ -5,36 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>grids</title>
     <style>
+
         *{margin: 0px;}
+
         div#container{
-            margin: 50px;
+          width: 100vw;
+          height: 100vh;
             display: grid;
-            background-color: rgb(23, 23, 109);
+            background-color: rgb(119, 37, 196);
+            grid-template: 150px 60px 3fr 60px / 1fr 2fr 1fr;
             
-            width: 80vw;
-            grid-template-columns: auto auto auto;
-            grid-auto-rows: 100px;
-            gap: 10px;
-            
+           
          }
 
          p.item{
             background-color: rgb(250, 225, 3);
+            margin: 10px;
+            text-align: center;
 
           }
+
+          p.item#c1 {
+            /* row-start > column-star > row-end > column-end */
+            grid-area: 1 / 1 / 2 / span 3 ; 
+
+          }
+
+          p.item#c2{
+            grid-area: 2 / 1 / 2 /-1 ;
+            }
+
+            p.item#c3{
+              grid-area: 3 / 1 / 4 / span 2 ;
+            }
+
+            p.item#c5{
+              grid-area: 3 / 3 / 4 / -1 ;
+            }
+
+            p.item#c4{
+              grid-area: -2 / 1 / -1 / -1 ;
+            }
     </style>
 </head>
 <body>
   <div id="container">
-     <p class="item">A</p>
-     <p class="item">B</p>
-     <p class="item">C</p>
-     <p class="item">D</p>
-     <p class="item">E</p>
-     <p class="item">F</p>
-     <p class="item">G</p>
-     <p class="item">H</p>
-     <p class="item">I</p>
+     <p class="item" id="c1">topo</p>
+     <p class="item" id="c2">menu</p>
+     <p class="item" id="c3">principal</p>
+     <p class="item" id="c5">secundario</p>
+     <p class="item" id="c4">rodape</p>
      
   </div>  
 </body>
